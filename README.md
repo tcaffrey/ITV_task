@@ -4,7 +4,7 @@ Repository for my submission to the ITV Data Scientist task
 ## Running the notebook
 The csv file required for the two sections is contained in the repository.
 
-A jupyter notebook is supplied with code to answer parts 1 & 2 of the tast. The notebook should run (providing libraries required have been installed)
+A jupyter notebook is supplied with code to answer parts 1 & 2 of the tast. The notebook should run (providing libraries required have been installed). An html file of the notebook is also provided so the code and output can be viewed in case there was any issues with running the notebook.
 
 ## Part 1
 
