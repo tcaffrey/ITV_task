@@ -22,7 +22,7 @@ In order to predict lifetime post consumers 3 models was chosen to model the dat
 
 #### Pre processing of data
 
-In order to achieve the multivariate normality the target variables is log transformed (due to the positive skew) along with removing some of the outliers (deemed anything more than 3 sd away from the mean). 
+In order to achieve the multivariate normality the target variable is log transformed (due to the positive skew) along with removing some of the outliers (deemed anything more than 3 sd away from the mean). 
 
 There was one intance of missing value in the paid column which was treated. 
 
