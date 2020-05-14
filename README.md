@@ -34,7 +34,7 @@ A small amount of feature engineering was conducted. The total page likes since 
 
 #### Model Performance
 
-All 3 models show similar cross validation and test set accuracies, with Lasso regression performing the best (0.429 MSE for CV and 0.434 MSE for test). This demonstrates that the mode is suffering from high variance (overfitting on training data and not performing well on test set). An R2 score of 0.45 is achieved using the lasso regression model and although a value of close to 1 would be desired on the small data set and as a baseline model this value feels acceptable, although there could be a lot more added and tested to improve that score further. 
+All 3 models show similar cross validation and test set accuracies, with Lasso regression performing the best (0.423 MSE for CV and 0.455 MSE for test). This demonstrates that there is variance in the model (overfitting on training data and not performing as well on validation set). An R2 score of 0.45 is achieved using the lasso regression model and although a value of close to 1 would be desired on the small data set and as a baseline model this value feels acceptable, although there could be a lot more added and tested to improve that score further. 
 
 There is little multicollinearity between variables and the plot of residuals from the model output show there is no auto-correlation and the residuals are homoscedastic. This is a good sign that the model built is following the assumptions required for linear regression.
 
